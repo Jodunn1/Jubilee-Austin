@@ -1,0 +1,206 @@
+/****** Global Styles ******/
+body {
+    font-family: "Source Sans 3", sans-serif;
+    color: #5e5d5e;
+}
+
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/****** Header Styles ******/
+.homepage-hero {
+    background: url("/img/full-background.png"), #f9efef;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+
+header h1 {
+    float: left;
+    width: 300px;
+    font-family: "Lora", Serif;
+    font-size: 30px;
+    color: #7B7E54;
+    padding: 65px 0 65px 25px;
+}
+
+header nav {
+    width: 800px;
+    float: right;
+    text-align: right;
+    padding: 75px 0px 75px 25px;
+}
+
+.content-wrapper nav ul li {
+    display: inline-block;
+}
+
+
+.content-wrapper nav ul li a {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #727172;
+    padding-left: 80px;
+}
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', Serif;
+    font-size: 72px;
+    line-height: 80px;
+    padding-left: 25px;
+    color: #817f80;
+}
+
+
+
+
+
+/****** About Styles ******/
+#about .content-wrapper {
+    padding: 80px 0px;
+}
+
+#about .content-wrapper h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about .content-wrapper p {
+    float: left;
+    width: 500px;
+    padding: 0px 50px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+
+
+
+/****** Skill Styles ******/
+#skills {
+    background: #f5f5f5;
+    text-align: center;
+}
+
+#skills .content-wrapper {
+    padding: 115px 0px;
+}
+
+#skills .content-wrapper div {
+    float: left;
+    width: 300px;
+    padding: 0px 50px;
+}
+
+#skills .content-wrapper h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+#skills .content-wrapper h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0px 20px 0px;
+}
+
+#skills .content-wrapper p {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+
+
+
+/****** Contact Styles ******/
+
+#contact {
+    background: #f9e9e9;
+}
+
+#contact .content-wrapper {
+    padding: 110px 0px;
+}
+
+#contact .content-wrapper .contact-image {
+    float: left;
+    width: 600px;
+}
+
+#contact .content-wrapper .contact-image img {
+    width: 500px;
+    height: 300px;
+    border: 12px solid #ffffff;
+    box-sizing: border-box;
+    margin: 0px 50px;
+}
+
+#contact .content-wrapper .contact-info {
+    float: left;
+    width: 500px;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+#contact .content-wrapper .contact-info h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 30px 0px;
+}
+
+#contact .content-wrapper .contact-info h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    font-family: "Lora", serif;
+}
+
+#contact .content-wrapper .contact-info #email-header {
+    padding-bottom: 5px;
+}
+
+#contact .content-wrapper .contact-info #email-bottom {
+    padding: 20px 0 5px 0;
+}
+
+#contact .content-wrapper .contact-info #envelope-icon {
+    margin-right: 10px;
+}
+
+#contact .content-wrapper .contact-info a {
+    color: #5e5d5e;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+#contact .content-wrapper .contact-info ul {
+    padding: 0;
+    margin: 0;
+}
+
+#contact .content-wrapper .contact-info ul li {
+    display: inline-block;
+}
+
+#contact .content-wrapper .contact-info ul li img {
+    padding-right: 40px;
+}
