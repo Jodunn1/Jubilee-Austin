@@ -21,7 +21,7 @@ body {
 
 /****** Header Styles ******/
 .homepage-hero {
-    background: url("/img/full-background.png"), #f9efef;
+    background: url("../img/full-background.png"), #f9efef;
     background-position: center;
     background-size: cover;
     height: 800px;
